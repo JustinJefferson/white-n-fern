@@ -1,0 +1,16 @@
+.ComingSoon {
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 32px;
+    color: #afafaf
+}
