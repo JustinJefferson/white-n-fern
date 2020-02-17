@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { GalleryItem, MockGalleryList } from '../models/GalleryItem'
 
-class GalleryPage extends Component{
+class Gallery extends Component{
     constructor(props) {
         super(props);
 
@@ -30,4 +30,4 @@ class GalleryPage extends Component{
 
 }
 
-export default GalleryPage;
+export default Gallery;
