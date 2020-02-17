@@ -2,13 +2,24 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Link, Switch, Route } from 'react-router-dom';
+import Sidebar from './components/Sidebar';
 import Home from './pages/Home';
 import Gallery from './pages/Gallery';
-import Workshop from './pages/Workshop;'
+import Workshop from './pages/Workshop';
+
+const list = [
+  'Gallery',
+  'Workshp',
+  'Flowers',
+  'About'
+];
 
 function App() {
   return (
     <div className="App">
+      <div className="Sidebar">
+        <Sidebar pages={list} open={true} />
+      </div>
       <h1>White & Fern</h1>
       <Router>
         <Switch>
