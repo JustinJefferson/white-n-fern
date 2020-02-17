@@ -2,8 +2,9 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Link, Switch, Route } from 'react-router-dom';
-import HomePage from './pages/HomePage';
-import GalleryPage from './pages/GalleryPage';
+import Home from './pages/Home';
+import Gallery from './pages/Gallery';
+import Workshop from './pages/Workshop;'
 
 function App() {
   return (
@@ -12,12 +13,14 @@ function App() {
       <Router>
         <Switch>
           <Route exact path="/">
-            <HomePage />
+            <Home />
           </Route>
           <Route path="/gallery">
-            <GalleryPage />
+            <Gallery />
           </Route>
-          <Route path="/workshop"></Route>
+          <Route path="/workshop">
+            <Workshop />
+          </Route>
           <Route path="/flowers"></Route>
           <Route path="/about"></Route>
         </Switch>
