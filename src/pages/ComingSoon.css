@@ -1,3 +1,21 @@
+.FullCover {
+    /* The image used */
+    background-image: url(../whiteFernComingSoon.png);
+
+    /* Full height */
+    /* height: 800px; 
+    width: 1600px; */
+
+    /* Center and scale the image nicely */
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* top: 50%;
+    left: 50%; */
+    
+}
+
 .ComingSoon {
     text-align: center;
     position: fixed;
